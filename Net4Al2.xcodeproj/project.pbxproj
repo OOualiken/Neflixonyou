@@ -20,6 +20,8 @@
 		F40CAFE824B3479B004C7750 /* Net4Al2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CAFE724B3479B004C7750 /* Net4Al2UITests.swift */; };
 		F40CAFFB24B38949004C7750 /* movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CAFFA24B38949004C7750 /* movie.swift */; };
 		F40CAFFE24B38A2B004C7750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40CAFFC24B38A2B004C7750 /* Main.storyboard */; };
+		F40CB00024B39428004C7750 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CAFFF24B39428004C7750 /* MovieListViewController.swift */; };
+		F40CB00224B39440004C7750 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CB00124B39440004C7750 /* MovieListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		F40CAFE924B3479B004C7750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F40CAFFA24B38949004C7750 /* movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movie.swift; sourceTree = "<group>"; };
 		F40CAFFD24B38A2B004C7750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../MovieInfoMVVMiOS/MovieInfo/Resources/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F40CAFFF24B39428004C7750 /* MovieListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieListViewController.swift; path = "../../../MovieInfoMVVMiOS/MovieInfo/View Controllers/MovieListViewController.swift"; sourceTree = "<group>"; };
+		F40CB00124B39440004C7750 /* MovieListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		FA9540475531772DE6FE2A06 /* Pods-Net4Al2-Net4Al2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net4Al2-Net4Al2UITests.release.xcconfig"; path = "Target Support Files/Pods-Net4Al2-Net4Al2UITests/Pods-Net4Al2-Net4Al2UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -181,6 +185,7 @@
 		F40CAFF524B388A5004C7750 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				F40CB00124B39440004C7750 /* MovieListViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 		F40CAFF624B388BC004C7750 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				F40CAFFF24B39428004C7750 /* MovieListViewController.swift */,
 				F40CAFFA24B38949004C7750 /* movie.swift */,
 			);
 			path = models;
@@ -492,6 +498,8 @@
 				F40CAFC724B34799004C7750 /* ViewController.swift in Sources */,
 				F40CAFC324B34799004C7750 /* AppDelegate.swift in Sources */,
 				F40CAFCD24B34799004C7750 /* Net4Al2.xcdatamodeld in Sources */,
+				F40CB00024B39428004C7750 /* MovieListViewController.swift in Sources */,
+				F40CB00224B39440004C7750 /* MovieListViewController.swift in Sources */,
 				F40CAFC524B34799004C7750 /* SceneDelegate.swift in Sources */,
 				F40CAFFB24B38949004C7750 /* movie.swift in Sources */,
 			);
