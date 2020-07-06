@@ -1,0 +1,6 @@
+framework module Pods_Net4Al2Tests {
+  umbrella header "Pods-Net4Al2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

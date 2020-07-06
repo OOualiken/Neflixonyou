@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AED9859DD7207A4EF7159B5 /* Pods_Net4Al2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A290AAAF631F16A67FA1A18 /* Pods_Net4Al2Tests.framework */; };
+		A7E90050BF29C1862FD50EFE /* Pods_Net4Al2_Net4Al2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16AF923C57D7BC5EAE03B61 /* Pods_Net4Al2_Net4Al2UITests.framework */; };
+		DA4CE1D08886A3C0311D42AE /* Pods_Net4Al2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1751BA70F48DD6D6B1CFA942 /* Pods_Net4Al2.framework */; };
 		F40CAFC324B34799004C7750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CAFC224B34799004C7750 /* AppDelegate.swift */; };
 		F40CAFC524B34799004C7750 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CAFC424B34799004C7750 /* SceneDelegate.swift */; };
 		F40CAFC724B34799004C7750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CAFC624B34799004C7750 /* ViewController.swift */; };
@@ -36,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1751BA70F48DD6D6B1CFA942 /* Pods_Net4Al2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Net4Al2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE1144D139DBD61F49F0A9D /* Pods-Net4Al2-Net4Al2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net4Al2-Net4Al2UITests.debug.xcconfig"; path = "Target Support Files/Pods-Net4Al2-Net4Al2UITests/Pods-Net4Al2-Net4Al2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A290AAAF631F16A67FA1A18 /* Pods_Net4Al2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Net4Al2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F644C52EB6198A4BDC4816C /* Pods-Net4Al2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net4Al2Tests.release.xcconfig"; path = "Target Support Files/Pods-Net4Al2Tests/Pods-Net4Al2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A28E34CA76CD7FE9B8EBDF2D /* Pods-Net4Al2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net4Al2.release.xcconfig"; path = "Target Support Files/Pods-Net4Al2/Pods-Net4Al2.release.xcconfig"; sourceTree = "<group>"; };
+		B16AF923C57D7BC5EAE03B61 /* Pods_Net4Al2_Net4Al2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Net4Al2_Net4Al2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC785FE0FE3FBC07F658A8B3 /* Pods-Net4Al2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net4Al2Tests.debug.xcconfig"; path = "Target Support Files/Pods-Net4Al2Tests/Pods-Net4Al2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E743BD41FE4FBFC7852E00EC /* Pods-Net4Al2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net4Al2.debug.xcconfig"; path = "Target Support Files/Pods-Net4Al2/Pods-Net4Al2.debug.xcconfig"; sourceTree = "<group>"; };
 		F40CAFBF24B34799004C7750 /* Net4Al2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Net4Al2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40CAFC224B34799004C7750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F40CAFC424B34799004C7750 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +62,7 @@
 		F40CAFE324B3479B004C7750 /* Net4Al2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Net4Al2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40CAFE724B3479B004C7750 /* Net4Al2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Net4Al2UITests.swift; sourceTree = "<group>"; };
 		F40CAFE924B3479B004C7750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9540475531772DE6FE2A06 /* Pods-Net4Al2-Net4Al2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net4Al2-Net4Al2UITests.release.xcconfig"; path = "Target Support Files/Pods-Net4Al2-Net4Al2UITests/Pods-Net4Al2-Net4Al2UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4CE1D08886A3C0311D42AE /* Pods_Net4Al2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AED9859DD7207A4EF7159B5 /* Pods_Net4Al2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E90050BF29C1862FD50EFE /* Pods_Net4Al2_Net4Al2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34713DE1D5C1F2E6B147BEE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E743BD41FE4FBFC7852E00EC /* Pods-Net4Al2.debug.xcconfig */,
+				A28E34CA76CD7FE9B8EBDF2D /* Pods-Net4Al2.release.xcconfig */,
+				3EE1144D139DBD61F49F0A9D /* Pods-Net4Al2-Net4Al2UITests.debug.xcconfig */,
+				FA9540475531772DE6FE2A06 /* Pods-Net4Al2-Net4Al2UITests.release.xcconfig */,
+				BC785FE0FE3FBC07F658A8B3 /* Pods-Net4Al2Tests.debug.xcconfig */,
+				9F644C52EB6198A4BDC4816C /* Pods-Net4Al2Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC3D2E9126CD4FBC9F7D24F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1751BA70F48DD6D6B1CFA942 /* Pods_Net4Al2.framework */,
+				B16AF923C57D7BC5EAE03B61 /* Pods_Net4Al2_Net4Al2UITests.framework */,
+				5A290AAAF631F16A67FA1A18 /* Pods_Net4Al2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F40CAFB624B34799004C7750 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				F40CAFDB24B3479B004C7750 /* Net4Al2Tests */,
 				F40CAFE624B3479B004C7750 /* Net4Al2UITests */,
 				F40CAFC024B34799004C7750 /* Products */,
+				34713DE1D5C1F2E6B147BEE9 /* Pods */,
+				DC3D2E9126CD4FBC9F7D24F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F40CAFEC24B3479B004C7750 /* Build configuration list for PBXNativeTarget "Net4Al2" */;
 			buildPhases = (
+				B594BEFCAA2892C97084271B /* [CP] Check Pods Manifest.lock */,
 				F40CAFBB24B34799004C7750 /* Sources */,
 				F40CAFBC24B34799004C7750 /* Frameworks */,
 				F40CAFBD24B34799004C7750 /* Resources */,
+				F29474B54032B4687387B4C5 /* [CP] Embed Pods Frameworks */,
+				89E4F72503C4E9E5C772A957 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F40CAFEF24B3479B004C7750 /* Build configuration list for PBXNativeTarget "Net4Al2Tests" */;
 			buildPhases = (
+				8752B8883E13865DA5F1872A /* [CP] Check Pods Manifest.lock */,
 				F40CAFD424B3479B004C7750 /* Sources */,
 				F40CAFD524B3479B004C7750 /* Frameworks */,
 				F40CAFD624B3479B004C7750 /* Resources */,
@@ -173,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F40CAFF224B3479B004C7750 /* Build configuration list for PBXNativeTarget "Net4Al2UITests" */;
 			buildPhases = (
+				25AA226A8ED56BE5C5CBC556 /* [CP] Check Pods Manifest.lock */,
 				F40CAFDF24B3479B004C7750 /* Sources */,
 				F40CAFE024B3479B004C7750 /* Frameworks */,
 				F40CAFE124B3479B004C7750 /* Resources */,
+				6F1031A90BE952A0728BAC05 /* [CP] Embed Pods Frameworks */,
+				55FED4F5D6B5DCB86BD8C7FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +304,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25AA226A8ED56BE5C5CBC556 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Net4Al2-Net4Al2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55FED4F5D6B5DCB86BD8C7FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Net4Al2-Net4Al2UITests/Pods-Net4Al2-Net4Al2UITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Net4Al2-Net4Al2UITests/Pods-Net4Al2-Net4Al2UITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Net4Al2-Net4Al2UITests/Pods-Net4Al2-Net4Al2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F1031A90BE952A0728BAC05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Net4Al2-Net4Al2UITests/Pods-Net4Al2-Net4Al2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Net4Al2-Net4Al2UITests/Pods-Net4Al2-Net4Al2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Net4Al2-Net4Al2UITests/Pods-Net4Al2-Net4Al2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8752B8883E13865DA5F1872A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Net4Al2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89E4F72503C4E9E5C772A957 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Net4Al2/Pods-Net4Al2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Net4Al2/Pods-Net4Al2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Net4Al2/Pods-Net4Al2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B594BEFCAA2892C97084271B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Net4Al2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F29474B54032B4687387B4C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Net4Al2/Pods-Net4Al2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Net4Al2/Pods-Net4Al2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Net4Al2/Pods-Net4Al2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F40CAFBB24B34799004C7750 /* Sources */ = {
@@ -436,6 +621,7 @@
 		};
 		F40CAFED24B3479B004C7750 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E743BD41FE4FBFC7852E00EC /* Pods-Net4Al2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +640,7 @@
 		};
 		F40CAFEE24B3479B004C7750 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28E34CA76CD7FE9B8EBDF2D /* Pods-Net4Al2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +659,7 @@
 		};
 		F40CAFF024B3479B004C7750 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC785FE0FE3FBC07F658A8B3 /* Pods-Net4Al2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +682,7 @@
 		};
 		F40CAFF124B3479B004C7750 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F644C52EB6198A4BDC4816C /* Pods-Net4Al2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +705,7 @@
 		};
 		F40CAFF324B3479B004C7750 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE1144D139DBD61F49F0A9D /* Pods-Net4Al2-Net4Al2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +726,7 @@
 		};
 		F40CAFF424B3479B004C7750 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9540475531772DE6FE2A06 /* Pods-Net4Al2-Net4Al2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

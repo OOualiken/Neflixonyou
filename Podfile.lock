@@ -1,0 +1,74 @@
+PODS:
+  - Alamofire (5.2.1)
+  - Braintree/Card (4.34.0):
+    - Braintree/Core
+  - Braintree/Core (4.34.0)
+  - Braintree/PaymentFlow (4.34.0):
+    - Braintree/Card
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPal (4.34.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.34.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.34.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.34.0)
+  - Braintree/UnionPay (4.34.0):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (8.1.0):
+    - BraintreeDropIn/DropIn (= 8.1.0)
+  - BraintreeDropIn/DropIn (8.1.0):
+    - Braintree/Card (~> 4.32)
+    - Braintree/Core (~> 4.32)
+    - Braintree/PaymentFlow (~> 4.32)
+    - Braintree/PayPal (~> 4.32)
+    - Braintree/UnionPay (~> 4.32)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (8.1.0)
+  - Charts (3.5.0):
+    - Charts/Core (= 3.5.0)
+  - Charts/Core (3.5.0)
+  - Floaty (4.2.0)
+  - GoogleMaps/Base (3.9.0)
+  - GooglePlaces (3.9.0):
+    - GoogleMaps/Base (= 3.9.0)
+  - KYDrawerController (2.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BraintreeDropIn
+  - Charts
+  - Floaty
+  - GooglePlaces
+  - KYDrawerController
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Braintree
+    - BraintreeDropIn
+    - Charts
+    - Floaty
+    - GoogleMaps
+    - GooglePlaces
+    - KYDrawerController
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  Braintree: 48154e70306eb3e6c81eaa87bbc5c5988c0d2784
+  BraintreeDropIn: fc3e96a8a2b5416e5e3a3beba119f0089713bc1e
+  Charts: 40a08591df1f8ad5c223ddedfb1a06da92f24f7c
+  Floaty: e2bd5a0f6f7f70899e26ff2da31081c8bee8d1b0
+  GoogleMaps: 4b5346bddfe6911bb89155d43c903020170523ac
+  GooglePlaces: 1634d019549b969d40fe0ccb0b9513055adebe01
+  KYDrawerController: baad0e63b09c0cb564bd48f0f7f70f45d9176ebc
+
+PODFILE CHECKSUM: eea072a4ae889fa66d93a6a31eaf785864fb76da
+
+COCOAPODS: 1.9.0
