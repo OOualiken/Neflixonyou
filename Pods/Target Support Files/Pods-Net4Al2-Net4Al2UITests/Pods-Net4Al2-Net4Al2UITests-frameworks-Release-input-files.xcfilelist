@@ -1,8 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-Net4Al2-Net4Al2UITests/Pods-Net4Al2-Net4Al2UITests-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/Braintree/Braintree.framework
-${PODS_ROOT}/Braintree/Frameworks/CardinalMobile.framework
-${BUILT_PRODUCTS_DIR}/BraintreeDropIn/BraintreeDropIn.framework
-${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
-${BUILT_PRODUCTS_DIR}/Floaty/Floaty.framework
-${BUILT_PRODUCTS_DIR}/KYDrawerController/KYDrawerController.framework
