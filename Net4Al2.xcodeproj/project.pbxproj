@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,12 +13,13 @@
 		F40CAFC324B34799004C7750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CAFC224B34799004C7750 /* AppDelegate.swift */; };
 		F40CAFC524B34799004C7750 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CAFC424B34799004C7750 /* SceneDelegate.swift */; };
 		F40CAFC724B34799004C7750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CAFC624B34799004C7750 /* ViewController.swift */; };
-		F40CAFCA24B34799004C7750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40CAFC824B34799004C7750 /* Main.storyboard */; };
 		F40CAFCD24B34799004C7750 /* Net4Al2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F40CAFCB24B34799004C7750 /* Net4Al2.xcdatamodeld */; };
 		F40CAFCF24B3479B004C7750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40CAFCE24B3479B004C7750 /* Assets.xcassets */; };
 		F40CAFD224B3479B004C7750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40CAFD024B3479B004C7750 /* LaunchScreen.storyboard */; };
 		F40CAFDD24B3479B004C7750 /* Net4Al2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CAFDC24B3479B004C7750 /* Net4Al2Tests.swift */; };
 		F40CAFE824B3479B004C7750 /* Net4Al2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CAFE724B3479B004C7750 /* Net4Al2UITests.swift */; };
+		F40CAFFB24B38949004C7750 /* movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CAFFA24B38949004C7750 /* movie.swift */; };
+		F40CAFFE24B38A2B004C7750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40CAFFC24B38A2B004C7750 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +52,6 @@
 		F40CAFC224B34799004C7750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F40CAFC424B34799004C7750 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F40CAFC624B34799004C7750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F40CAFC924B34799004C7750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F40CAFCC24B34799004C7750 /* Net4Al2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Net4Al2.xcdatamodel; sourceTree = "<group>"; };
 		F40CAFCE24B3479B004C7750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F40CAFD124B3479B004C7750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,6 +62,8 @@
 		F40CAFE324B3479B004C7750 /* Net4Al2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Net4Al2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40CAFE724B3479B004C7750 /* Net4Al2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Net4Al2UITests.swift; sourceTree = "<group>"; };
 		F40CAFE924B3479B004C7750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40CAFFA24B38949004C7750 /* movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movie.swift; sourceTree = "<group>"; };
+		F40CAFFD24B38A2B004C7750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../MovieInfoMVVMiOS/MovieInfo/Resources/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA9540475531772DE6FE2A06 /* Pods-Net4Al2-Net4Al2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net4Al2-Net4Al2UITests.release.xcconfig"; path = "Target Support Files/Pods-Net4Al2-Net4Al2UITests/Pods-Net4Al2-Net4Al2UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +105,6 @@
 				BC785FE0FE3FBC07F658A8B3 /* Pods-Net4Al2Tests.debug.xcconfig */,
 				9F644C52EB6198A4BDC4816C /* Pods-Net4Al2Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,10 +143,15 @@
 		F40CAFC124B34799004C7750 /* Net4Al2 */ = {
 			isa = PBXGroup;
 			children = (
+				F40CAFF924B38913004C7750 /* celle */,
+				F40CAFF824B388EC004C7750 /* extention */,
+				F40CAFF724B388D6004C7750 /* service  */,
+				F40CAFF624B388BC004C7750 /* models */,
+				F40CAFF524B388A5004C7750 /* view */,
 				F40CAFC224B34799004C7750 /* AppDelegate.swift */,
 				F40CAFC424B34799004C7750 /* SceneDelegate.swift */,
+				F40CAFFC24B38A2B004C7750 /* Main.storyboard */,
 				F40CAFC624B34799004C7750 /* ViewController.swift */,
-				F40CAFC824B34799004C7750 /* Main.storyboard */,
 				F40CAFCE24B3479B004C7750 /* Assets.xcassets */,
 				F40CAFD024B3479B004C7750 /* LaunchScreen.storyboard */,
 				F40CAFD324B3479B004C7750 /* Info.plist */,
@@ -170,6 +176,42 @@
 				F40CAFE924B3479B004C7750 /* Info.plist */,
 			);
 			path = Net4Al2UITests;
+			sourceTree = "<group>";
+		};
+		F40CAFF524B388A5004C7750 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F40CAFF624B388BC004C7750 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				F40CAFFA24B38949004C7750 /* movie.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		F40CAFF724B388D6004C7750 /* service  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "service ";
+			sourceTree = "<group>";
+		};
+		F40CAFF824B388EC004C7750 /* extention */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extention;
+			sourceTree = "<group>";
+		};
+		F40CAFF924B38913004C7750 /* celle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = celle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,9 +325,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F40CAFFE24B38A2B004C7750 /* Main.storyboard in Resources */,
 				F40CAFD224B3479B004C7750 /* LaunchScreen.storyboard in Resources */,
 				F40CAFCF24B3479B004C7750 /* Assets.xcassets in Resources */,
-				F40CAFCA24B34799004C7750 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +493,7 @@
 				F40CAFC324B34799004C7750 /* AppDelegate.swift in Sources */,
 				F40CAFCD24B34799004C7750 /* Net4Al2.xcdatamodeld in Sources */,
 				F40CAFC524B34799004C7750 /* SceneDelegate.swift in Sources */,
+				F40CAFFB24B38949004C7750 /* movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,20 +529,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F40CAFC824B34799004C7750 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F40CAFC924B34799004C7750 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F40CAFD024B3479B004C7750 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F40CAFD124B3479B004C7750 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F40CAFFC24B38A2B004C7750 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40CAFFD24B38A2B004C7750 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
