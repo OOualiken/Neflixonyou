@@ -2,9 +2,8 @@
 //  MovieService.swift
 //  MovieInfo
 //
-//  Created by Alfian Losari on 10/03/19.
-//  Copyright © 2019 Alfian Losari. All rights reserved.
-//
+//  Created by oualiken on 06/07/2020.
+//  Copyright © 2020 oualiken. All rights reserved.
 
 import Foundation
 
